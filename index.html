@@ -4,29 +4,53 @@
   <title>Pseudo-portfolio for Nobodys</title>
 
   <style>
+    .content {
+      widtH: 500px;
+    }
     .mike,
     .jay {
-      display: inline-block;
-      padding: 3px 10px;
-      border-radius: 20px;
+      padding: 5px 20px;
+      border-radius: 10px;
       display: inline-block;
       font-family: helvetica;
       font-size: 12px;
       margin-bottom: 4px;
+      max-width: 300px;
     }
     .mike {
-      background: -webkit-linear-gradient(top, #DFEFFF, #BADBFF, #DFEFFF);
+      background: -webkit-linear-gradient(top, #DFEFFF, #87BFFE, #DFEFFF);
       border: 1px solid #577CA7;
+      float: right;
+      margin-left: 44px;
     }
     .jay {
       background: -webkit-linear-gradient(top, #fff,  #E1E1E1, #fff);
       border: 1px solid #989898;
+      float: left;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <p class="mike">hey jay</p> <br>
-  <p class="jay">hey</p> <br>
+  <div class="content">
+    <p class="mike"><a href="https://wantful.com">Wantful</a></p> <br>
+    <p class="jay"><a href="https://wantful.com/redeem/rrf4-rw3k-w59q">Wantful online redemption</a></p> <br>
+    <p class="mike">
+      <a href="http://mikekavouras.com/midi-mike/midi.mov">
+        Online midi keyboard built with HTML5 AudioContext API. All sounds are built in to the browser.
+      </a>
+      <br>
+      <br>
+      <a href="http://mikekavouras.com/midi-mike/">
+        >>> LIVE DEMO <<<
+      </a>
+    </p><br>
+    <p class="jay"><a href="http://dribbble.com/jayschaul">Check out my dribbble : )</a></p>
+  </div>
 
 </body>
 </html>
