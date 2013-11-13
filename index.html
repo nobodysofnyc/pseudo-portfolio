@@ -4,55 +4,90 @@
   <title>Pseudo-portfolio for Nobodys</title>
 
   <style>
-    .content {
-      widtH: 500px;
+    html, body {
+      height: 100%;
+      -webkit-font-smoothing: antialiased;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     }
-    .mike,
-    .jay {
-      padding: 5px 20px;
-      border-radius: 10px;
-      display: inline-block;
-      font-family: helvetica;
-      font-size: 12px;
-      margin-bottom: 4px;
-      max-width: 300px;
+    html {
+      background: #1d292c;
+      color: white;
     }
-    .mike {
-      background: -webkit-linear-gradient(top, #DFEFFF, #87BFFE, #DFEFFF);
-      border: 1px solid #577CA7;
-      float: right;
-      margin-left: 44px;
+    #content {
+      margin: 0 auto;
+      max-width: 36em;
+      margin-top: 2em;
+      padding: 0 10px;
+      min-height: 100%;
+      margin-bottom: 2em;
+      padding-bottom: 100px;
     }
-    .jay {
-      background: -webkit-linear-gradient(top, #fff,  #E1E1E1, #fff);
-      border: 1px solid #989898;
-      float: left;
+    h1, h2, h3, h4, p, a {
+      font-family: courier new, sans-serif;
     }
-
+    h2 {
+      font-weight: 600;
+      letter-spacing: 2px;
+      font-size: 16px;
+      margin: 26px 0px 12px 0px;
+      text-transform: uppercase;
+      color: white;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 4px;
+    }
     a {
-      color: #000;
+      color: #4abfdb;
+      font-weight: 600;
+      font-size: 19px;
       text-decoration: none;
+      border-bottom: 1px solid rgba(83, 167, 187, 0.3);
+    }
+    .title-link {
+      font-family: "HelveticaNeue-Ultra-Light", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      color: #e9f6f9;
+      font-weight: bold;
+      color: rgba(255,255,255,0.2);
+      border-bottom: none;
+      font-size: 16px;
+    }
+    p {
+      margin-top: 8px;
+      margin-bottom: 16px;
+      color: rgba(255,255,255,0.55);
+      font-weight: 600;
     }
   </style>
 </head>
 <body>
-  <div class="content">
-    <p class="mike"><a href="https://wantful.com">Wantful</a></p> <br>
-    <p class="jay"><a href="https://wantful.com/redeem/rrf4-rw3k-w59q">Wantful online redemption</a></p> <br>
-    <p class="mike">
-      <a href="http://mikekavouras.com/midi-mike/midi.mov">
-        Online midi keyboard built with HTML5 AudioContext API. All sounds are built in to the browser.
-      </a>
-      <br>
-      <br>
-      <a href="http://mikekavouras.com/midi-mike/">
-        >>> LIVE DEMO <<<
-      </a>
-    </p><br>
-    <p class="jay"><a href="http://dribbble.com/jayschaul">Check out my dribbble : )</a></p><br>
-    <div style="clear:both;"></div>
-    <p class="jay"><a href="https://wantful.com/story/lunch-with-naoko">This is the web view for a published iPad story</a></p>
-  </div>
+  <div id="content">
+    <div class="copy">
+      <span class="title-link"><a class="title-link" href="http://nobobysofnyc.com/">Nobodys of NYC</a> – Pseudo Portfolio</span><br><br>
 
+      <h2>Personal</h2>
+      <a href="http://mikekavouras.com/midi-mike">MIDI Keyboard</a>
+      <p>Decided to create a keyboard using only the webkit sounds.</p>
+      <a href="http://mikekavouras.com/">Other project</a>
+      <p>Description description description</p>
+
+      <h2>Wantful</h2>
+      <a href="http://wantful.com/">Wantful.com</a>
+      <p>We were responsible for most everything consumer facing on Wantful.com. Theres still a fair bit that functions on the site today, so play around with anything you can.</p>
+      <a href="http://wantful.com/">Redeeming a gift</a>
+      <p>A fullscreen experience for a gift recipient to choose which gift from their printed book that they want delievered. They choose their own address as the last step.</p>
+      <a href="http://videolink">iPad-CMS.mov</a>
+      <p>Publishing Wantful stories via backend CMS, which distributes content to the iPad app and to the web.</p>
+      <a href="http://videolink">Nordstrom Gift Service – Video</a>
+      <p>Partnership iPad web app experience for implimentation in Nordstrom retail stores. We designed and built the app to be quickly updated and iterated upon. The two of us were tasked with framing out user stories and putting together the experience from first sight of the iPads in the store through to checkout.</p>
+      <a href="http://flinto/">Nordstrom Gift Service – Prototype</a>
+      <p>This is a tappable prototype we used to quickly iterate and get feedback from the Nordstrom team.</p>
+
+      <h2>Dribbble</h2>
+      <a href="http://dribbble.com/jayschaul/">Dribbble – Jay</a>
+
+      <h2>Twitter</h2>
+      <a href="http://twitter.com/mikekavouras/">@mikekavouras</a><br>
+      <a href="http://twitter.com/jayschaul/">@jayschaul</a>
+    </div>
+  </div>
 </body>
 </html>
