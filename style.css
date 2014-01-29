@@ -49,6 +49,7 @@ p {
   margin-bottom: 16px;
   color: rgba(255,255,255,0.55);
   font-weight: 600;
+  line-height: 20px;
 }
 img {
   width: 100%;
